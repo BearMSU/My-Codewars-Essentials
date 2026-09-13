@@ -1,3 +1,3 @@
 function noSpace(x){
-  return x.replaceAll(' ', '')
+  return x.split(' ').join('')
 }
