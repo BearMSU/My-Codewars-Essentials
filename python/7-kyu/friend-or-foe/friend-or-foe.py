@@ -1,3 +1,3 @@
 def friend(x):
     #Code
-    return list(filter(lambda n: len(n) == 4, x))
+    return [n for n in x if len(n) == 4]
