@@ -1,3 +1,3 @@
 def summation(num):
-    return (num + 1) * num / 2    
+    return sum(range(num + 1))    
 ​
